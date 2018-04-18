@@ -1,0 +1,14 @@
+项目说明:
+
+    本项目为mybaits代码生成工具,根据数据库表结构与freemarker模版生成 entity , service , mapper xml 代码
+
+使用方式:
+
+    1.修改database.properties数据库文件
+
+    2.修改config.properties配置文件
+        code_cg_tables 需要生成的表,多个以 , 号分割
+        workspace_path 代码生成后的路径
+        file_separator 根据系统不同配置分隔符 window 不用配置  linux mac 配置 /
+
+    3.运行util.SkyCodeTool主类 , 生成代码
